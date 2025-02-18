@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1b1b1b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header input, header select {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  header button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background: #45a049;
+  }
+  
+  .app {
+    background: #1e1e1e;
+    padding: 10px;
+    border-radius: 8px;
+    height: 300px;
+    overflow-y: auto;
+  }
+  
+  .chat-display {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chat-display .post {
+    background: #444;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .chat-display .post--left {
+    background: #2e7d32;
+    text-align: left;
+  }
+  
+  .chat-display .post--right {
+    background: #1976d2;
+    text-align: right;
+  }
+  
+  .chat-display .post__header {
+    font-size: 0.9em;
+    color: #bbb;
+  }
+  
+  .chat-display .post__header--name {
+    font-weight: bold;
+  }
+  
+  .chat-display .post__header--time {
+    float: right;
+  }
+  
+  .send {
+    margin-top: 10px;
+  }
+  
+  .send input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .send button {
+    background: #2196F3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .send button:hover {
+    background: #0b79c1;
+  }
+  
+  .info {
+    margin-top: 20px;
+  }
+  
+  .info p {
+    font-size: 0.9em;
+  }
+  
+  .user-list, .room-list, .activity {
+    color: #bbb;
+  }
+  
